@@ -24,7 +24,7 @@ Usage:
 
     io = SocketIO_cli('http://localhost:8080', on_connect=connected)
 
-    io.on('message', message)
+    io.on('message', callback=message)
 
     while True:
         time.sleep(1)    
