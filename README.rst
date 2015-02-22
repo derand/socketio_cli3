@@ -12,6 +12,7 @@ License
 
 
 Usage:
+============
 
     from socketio_cli3 import SocketIO_cli
 
