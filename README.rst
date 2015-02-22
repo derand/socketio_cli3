@@ -23,6 +23,7 @@ Usage:
         io.emit( ['message', 'String'] )
 
     io = SocketIO_cli('http://localhost:8080', on_connect=connected)
+
     io.on('message', message)
 
     while True:
